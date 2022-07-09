@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>By Touch</title>
+<meta charset="utf-8">
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/sForm.js"></script>
+<script src="js/jquery.jqtransform.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'random',
+        pagination: false, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: true,
+        waitBannerAnimation: false,
+        progressBar: false
+    });
+    $("#tabs").tabs();
+    $().UItoTop({
+        easingType: 'easeOutQuart'
+    });
+});
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body class="page1">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/bytouch7tp.png" alt=""></a></h1>
+      <div class="clear"></div>
+    </div>
+    <div class="menu_block">
+      <nav>
+        <ul class="sf-menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li class="with_ul"><a href="about.html">About</a>
+            
+          </li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+<div class="main">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="slider-relative">
+        <div class="slider-block">
+          <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
+            <ul class="items">
+              <li><img src="images/Prambanan1.jpg" alt="">
+                <div class="banner">
+                  <div>What a Wonderful World</div>
+                  <br>
+                  <span> LET'S EXPLORE!</span> </div>
+              </li>
+              <li><img src="images/Borobudur1.jpg" alt=""></li>
+              <li><img src="images/pahawang1.jpg" alt=""></li>
+              <li><img src="images/danaubiru1.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="container_12">
+      <div class="grid_12">
+        <h3>Top Destinations</h3>
+      </div>
+      <div class="boxes">
+        <div class="grid_4">
+          <figure>
+            <div><img src="images/page1_img1.jpg" alt=""></div>
+            <figcaption>
+              <h3>Borobudur</h3>
+              Candi Borobudur merupakan salah satu dari sekian banyak keajaiban yang ada di alam semesta. Candi kebanggaan masyarakat Indonesia ini masuk ke dalam tujuh keajaiban dunia sebelum adanya perubahan.
+ <a href="borobudur.html" class="btn">Details</a> </figcaption>
+          </figure>
+        </div>
+        <div class="grid_4">
+          <figure>
+            <div><img src="images/prambanan2rs.jpg" alt=""></div>
+            <figcaption>
+              <h3>Prambanan</h3>
+              Candi Prambanan atau Candi Roro Jonggrang  adalah kompleks candi Hindu (Syaiwa) terbesar di Indonesia yang dibangun pada abad ke-9 masehi.  <a href="prambanan.html" class="btn">Details</a> </figcaption>
+          </figure>
+        </div>
+        <div class="grid_4">
+          <figure>
+            <div><img src="images/pahawang3rs.jpg" alt=""></div>
+            <figcaption>
+              <h3>Pahawang</h3>
+              Pulau Pahawang di Pesawaran yang indah memesona dan menawan hati siapa pun yang datang berkunjung. <a href="pahawang.html" class="btn">Details</a> </figcaption>
+          </figure>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+      <div class="grid_8">
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">Kalimantan</a></li>
+            <li><a href="#tabs-2">Jawa</a></li>
+            <li><a href="#tabs-3">Sumatera</a></li>
+          </ul>
+          <div class="clear"></div>
+          <div class="tab_cont" id="tabs-1"> <img src="images/batuhapu1rs2.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1"><b><i>Batu Hapu</i></b> </div>
+              <p class="style1"></p>
+              “WOW!’
+              Demikian kesan yang pertama terucap ketika berkunjung ke Goa Batu Hapu, Tapin, Kalsel. Goa karst ini memiliki ruang yang luas dan tekstur dinding yang tidak biasa. <a href="batu.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+            <div class="clear cl1"></div>
+            <img src="images/pasar1rs.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1"><b><i>Pasar Terapung Lok Baintan</i></b> </div>
+              <p class="style1"></p>
+              Sama halnya Candi Borobudur di Yogyakarta atau Gunung Tangkuban Parahu di Bandung, Pasar Terapung Lok Baintan adalah tempat wajib yang harus Anda kunjungi bila berkunjung ke Kalimantan Selatan. <a href="pasar.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+          </div>
+          <div class="tab_cont" id="tabs-2"> <img src="images/parahu2rs.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1">Tangkuban Perahu </div>
+              <p class="style1">Gunung Tangkuban Parahu adalah salah satu gunung yang terletak di Provinsi Jawa Barat, Indonesia. Sekitar 20 km ke arah utara Kota Bandung, dengan rimbun pohon pinus dan hamparan kebun teh di sekitarnya. <a href="tangkuban.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+            <div class="clear cl1"></div>
+            <img src="images/malio2rs.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1"><b><i>Malioboro</i></b> </div>
+              <p class="style1"></p>
+              Malioboro merupakan nama sebuah jalan yang ada di Jogja yang terkenal sebagai wisata belanja legendaris di Indonesia. Asal nama jalan Malioboro sendiri berasal dari bahasa sansekerta “malyabhara” yang berarti karangan bunga.<a href="malioboro.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+          </div>
+          <div class="tab_cont" id="tabs-3"> <img src="images/danautoba2rs.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1"><b><i>Danau Toba</i></b> </div>
+              <p class="style1"></p>
+              Danau Toba adalah danau alami berukuran besar di Indonesia yang berada di kaldera Gunung Supervulkan. Danau ini memiliki panjang 100 kilometer dan lebar 30 kilometer<a href="danautoba.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+            <div class="clear cl1"></div>
+            <img src="images/lembah1rs.jpg" alt="">
+            <div class="extra_wrapper">
+              <br><div class="text1"><b><i>Lembah Hijau Lampung</i></b> </div>
+              <p class="style1"></p>
+              Taman Wisata Lembah Hijau Lampung adalah destinasi wisata keluarga yang tak pernah sepi dikunjungi wisatawan. Terletak di Bandar Lampung, tempat ini menawarkan sarana edukasi sekaligus rekreasi alam<a href="lembah.html" class="btn">Details</a>
+              <div class="clear "></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="newsletter_title">NewsLetter </div>
+        <div class="n_container"><br>
+          <ul class="list">
+            <li><a href="https://retizen.republika.co.id/posts/157694/7-kisah-misterius-wisata-gunung-tangkuban-perahu-bikin-merinding" target="_blank">Kisah Misterius Tangkuban Perahu </a></li>
+            <li><a href="https://www.traveloka.com/id-id/explore/destination/18-tempat-wisata-di-sumatera-utara-ini-wajib-kamu-kunjungi/16093" target="_blank">Mau liburan ke Sumatera Utara? </a></li>
+            <li><a href="https://www.celebes.co/borneo/tempat-wisata-pulau-kalimantan" target="_blank">44 Tempat Wisata di Pulau Kalimantan </a></li>
+            <li><a href="https://travel.tempo.co/read/1521067/indonesia-punya-salju-abadi-di-puncak-jaya-papua" target="_blank">Indonesia Punya Salju Abadi!! </a></li>
+            <li><a href="https://bengkulu.tribunnews.com/2022/03/11/kristian-hansen-youtuber-asal-denmark-yang-pilih-resign-untuk-keliling-indonesia-naik-motor" target="_blank">Kristian Hansen, Bule yang ingin keliling Indonesia naik motor </a></li>
+            <li><a href="https://galamedia.pikiran-rakyat.com/news/pr-351477082/rahasia-besar-candi-borobudur-dari-yang-bersifat-vulgar-hingga-alat-perekam-gerakan-langit" target="_blank">Segala Rahasia tentang Borobudur</a></li>
+            <li><a href="https://travel.detik.com/domestic-destination/d-6065241/ini-air-terjun-tertinggi-yang-bersumber-dari-danau-toba#:~:text=Itu%20sekilas%20gambaran%20Air%20Terjun,air%20terjun%20tertinggi%20di%20Indonesia." target="_blank">Apakah kalian tahu air terjun tertinggi di Indonesia? </a></li><br>
+            <video controls loop autoplay muted width="250" >
+            <source src="images/shopee.mp4" type="video/mp4"/></video>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="bottom_block">
+    <div class="container_12">
+      <div class="grid_2 prefix_2">
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </div>
+      <div class="grid_2">
+        <h4>Contact Us:</h4>
+        TEL: +62 813-1519-8308<br>
+        <a href="https://global.ac.id/">global.ac.id</a> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="socials"> <a href="https://twitter.com/kuliah_global" target="_blank"></a> <a href="https://www.facebook.com/binasaranaglobal/" target="_blank"></a> <a href="#" target="_blank"></a> <a href="https://www.instagram.com/binasaranaglobal/" target="_blank"></a> </div>
+      <div class="copy"> By Touch Agent Travel &copy; 2022 | <a href="#">Global Institute</a> | <a href="https://global.ac.id/"> global.ac.id</a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
